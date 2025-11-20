@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import Workflow from './components/Workflow';
+import BrainAtlasAnimation from './components/BrainAtlasAnimation';
 import CTA from './components/CTA';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Features />
       <Workflow />
+      <BrainAtlasAnimation />
       <CTA />
       <footer className="border-t border-white/10 py-10 text-center text-sm text-slate-400">
         © {new Date().getFullYear()} VerteX-Ray • Built for chiropractors
